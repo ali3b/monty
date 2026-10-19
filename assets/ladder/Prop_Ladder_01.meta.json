@@ -1,0 +1,320 @@
+{
+  "schema": "ssg-meta/1",
+  "generator": {
+    "name": "Synty Sprite Generator",
+    "version": "0.3",
+    "generatedAt": "2026-10-18T10:22:01.358Z"
+  },
+  "asset": {
+    "name": "SM_Prop_Ladder_01",
+    "pack": "POLYGON_Dark_Fortress",
+    "kind": "prop",
+    "category": "misc"
+  },
+  "blend": "normal",
+  "frameWidth": 64,
+  "frameHeight": 102,
+  "fps": 12,
+  "pivot": {
+    "x": 32,
+    "y": 95
+  },
+  "pivotSource": "anchor",
+  "pixelsPerMetre": 32,
+  "scale": {
+    "mode": "ppm",
+    "pixelsPerMetre": 32
+  },
+  "note": "Socket positions are pixels from the untrimmed frame top-left; for flipX animations use x = frameWidth - x.",
+  "clips": [
+    {
+      "name": "idle",
+      "loop": true,
+      "frameCount": 1,
+      "events": []
+    }
+  ],
+  "object": {
+    "footprint": {
+      "w": 0.968,
+      "d": 0.226,
+      "minX": -0.484,
+      "maxX": 0.484,
+      "minZ": -0.113,
+      "maxZ": 0.113
+    },
+    "height": 2.736,
+    "bottom": 0,
+    "centre": {
+      "x": 0,
+      "z": 0
+    },
+    "tiles": null,
+    "collision": {
+      "source": "hull",
+      "points": [
+        [
+          -0.484,
+          0.018
+        ],
+        [
+          -0.475,
+          0.004
+        ],
+        [
+          -0.449,
+          -0.022
+        ],
+        [
+          -0.432,
+          -0.029
+        ],
+        [
+          -0.222,
+          -0.103
+        ],
+        [
+          0.252,
+          -0.113
+        ],
+        [
+          0.281,
+          -0.103
+        ],
+        [
+          0.454,
+          -0.028
+        ],
+        [
+          0.467,
+          -0.007
+        ],
+        [
+          0.484,
+          0.037
+        ],
+        [
+          0.468,
+          0.083
+        ],
+        [
+          0.456,
+          0.099
+        ],
+        [
+          0.258,
+          0.113
+        ],
+        [
+          -0.208,
+          0.109
+        ],
+        [
+          -0.321,
+          0.092
+        ],
+        [
+          -0.355,
+          0.083
+        ],
+        [
+          -0.418,
+          0.056
+        ],
+        [
+          -0.437,
+          0.047
+        ],
+        [
+          -0.473,
+          0.027
+        ]
+      ],
+      "rule": "shape"
+    },
+    "pixelsPerMetre": 32,
+    "anchor": {
+      "x": 32,
+      "y": 95
+    },
+    "directions": [
+      {
+        "name": "E",
+        "worldAngle": 0,
+        "mirrorOf": null,
+        "anchor": {
+          "x": 32,
+          "y": 95
+        },
+        "facing": "+u",
+        "polygon": [
+          [
+            32.58,
+            95
+          ],
+          [
+            32.13,
+            95
+          ],
+          [
+            31.3,
+            95
+          ],
+          [
+            31.07,
+            95
+          ],
+          [
+            28.7,
+            95
+          ],
+          [
+            28.38,
+            95
+          ],
+          [
+            28.7,
+            95
+          ],
+          [
+            31.1,
+            95
+          ],
+          [
+            31.78,
+            95
+          ],
+          [
+            33.18,
+            95
+          ],
+          [
+            34.66,
+            95
+          ],
+          [
+            35.17,
+            95
+          ],
+          [
+            35.62,
+            95
+          ],
+          [
+            35.49,
+            95
+          ],
+          [
+            34.94,
+            95
+          ],
+          [
+            34.66,
+            95
+          ],
+          [
+            33.79,
+            95
+          ],
+          [
+            33.5,
+            95
+          ],
+          [
+            32.86,
+            95
+          ]
+        ]
+      },
+      {
+        "name": "W",
+        "worldAngle": 180,
+        "mirrorOf": null,
+        "anchor": {
+          "x": 32,
+          "y": 95
+        },
+        "facing": "-u",
+        "polygon": [
+          [
+            31.42,
+            95
+          ],
+          [
+            31.87,
+            95
+          ],
+          [
+            32.7,
+            95
+          ],
+          [
+            32.93,
+            95
+          ],
+          [
+            35.3,
+            95
+          ],
+          [
+            35.62,
+            95
+          ],
+          [
+            35.3,
+            95
+          ],
+          [
+            32.9,
+            95
+          ],
+          [
+            32.22,
+            95
+          ],
+          [
+            30.82,
+            95
+          ],
+          [
+            29.34,
+            95
+          ],
+          [
+            28.83,
+            95
+          ],
+          [
+            28.38,
+            95
+          ],
+          [
+            28.51,
+            95
+          ],
+          [
+            29.06,
+            95
+          ],
+          [
+            29.34,
+            95
+          ],
+          [
+            30.21,
+            95
+          ],
+          [
+            30.5,
+            95
+          ],
+          [
+            31.14,
+            95
+          ]
+        ]
+      }
+    ],
+    "note": "Metres are in the model's own axes (x right, z towards the camera in the S / single-direction sprite, y up; origin = the model pivot). anchor = the pixel (untrimmed frame, from top-left) where the footprint's ground centre is drawn: put it on the centre of the tiles the object covers (an even tile count puts it on a tile corner). Diamond tiles: u runs down-right, v down-left (Tiled isometric); square tiles: u right, v down. polygon = the ground collision polygon in frame pixels; tiles.polygon = the same polygon in tile units around the anchor. collision.source \"base\" = the hull of what stands on the ground (vertices below collision.cut metres above the bottom, e.g. a tree trunk); the whole model's hull is then canopy (canopyPolygon per direction), and footprint/tiles still cover the whole model. collision.rule says why: vehicle/building = always the whole hull; thin (trees, poles, lamps, signs) = the slice when it is at most half the hull; shape = the slice only under 15 % of the hull and near the middle; height = collisionHeight was given; asked = collision \"base\" or \"full\" was given."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "web/still_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Env_Spiderweb_01", "frame": "still_E_0"}]},
+    {"key": "web/still_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Env_Spiderweb_01", "frame": "still_W_0"}]}
+  ]
+}

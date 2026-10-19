@@ -1,0 +1,282 @@
+{
+  "schema": "ssg-meta/1",
+  "generator": {
+    "name": "Synty Sprite Generator",
+    "version": "0.3",
+    "generatedAt": "2026-10-18T10:41:01.515Z"
+  },
+  "asset": {
+    "name": "SM_Prop_Gem_01",
+    "pack": "POLYGON_Dungeon_Pack",
+    "kind": "prop",
+    "category": "misc"
+  },
+  "blend": "normal",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "fps": 12,
+  "pivot": {
+    "x": 32,
+    "y": 60.16
+  },
+  "pivotSource": "anchor",
+  "pixelsPerMetre": null,
+  "scale": {
+    "mode": "fit",
+    "pixelsPerMetre": null
+  },
+  "note": "Socket positions are pixels from the untrimmed frame top-left; for flipX animations use x = frameWidth - x.",
+  "clips": [
+    {
+      "name": "bob",
+      "loop": true,
+      "frameCount": 18,
+      "events": []
+    }
+  ],
+  "object": {
+    "footprint": {
+      "w": 0.372,
+      "d": 0.404,
+      "minX": -0.186,
+      "maxX": 0.186,
+      "minZ": -0.202,
+      "maxZ": 0.202
+    },
+    "height": 0.996,
+    "bottom": 0,
+    "centre": {
+      "x": 0,
+      "z": 0
+    },
+    "tiles": null,
+    "collision": {
+      "source": "base",
+      "points": [
+        [
+          -0.022,
+          0.059
+        ],
+        [
+          0.048,
+          -0.049
+        ],
+        [
+          -0.006,
+          0.123
+        ]
+      ],
+      "cut": 0.149,
+      "rule": "shape"
+    },
+    "canopy": {
+      "source": "hull",
+      "points": [
+        [
+          -0.186,
+          0.087
+        ],
+        [
+          -0.148,
+          -0.138
+        ],
+        [
+          -0.046,
+          -0.202
+        ],
+        [
+          0.091,
+          -0.16
+        ],
+        [
+          0.126,
+          -0.143
+        ],
+        [
+          0.186,
+          -0.045
+        ],
+        [
+          0.163,
+          0.089
+        ],
+        [
+          0.158,
+          0.109
+        ],
+        [
+          0.103,
+          0.155
+        ],
+        [
+          -0.018,
+          0.202
+        ],
+        [
+          -0.048,
+          0.195
+        ],
+        [
+          -0.151,
+          0.12
+        ]
+      ]
+    },
+    "pixelsPerMetre": 51.4041,
+    "anchor": {
+      "x": 32,
+      "y": 60.16
+    },
+    "directions": [
+      {
+        "name": "E",
+        "worldAngle": 0,
+        "mirrorOf": null,
+        "anchor": {
+          "x": 32,
+          "y": 60.16
+        },
+        "facing": "+u",
+        "polygon": [
+          [
+            35.03,
+            60.16
+          ],
+          [
+            29.48,
+            60.16
+          ],
+          [
+            38.32,
+            60.16
+          ]
+        ],
+        "canopyPolygon": [
+          [
+            36.47,
+            60.16
+          ],
+          [
+            24.91,
+            60.16
+          ],
+          [
+            21.62,
+            60.16
+          ],
+          [
+            23.78,
+            60.16
+          ],
+          [
+            24.65,
+            60.16
+          ],
+          [
+            29.69,
+            60.16
+          ],
+          [
+            36.57,
+            60.16
+          ],
+          [
+            37.6,
+            60.16
+          ],
+          [
+            39.97,
+            60.16
+          ],
+          [
+            42.38,
+            60.16
+          ],
+          [
+            42.02,
+            60.16
+          ],
+          [
+            38.17,
+            60.16
+          ]
+        ]
+      },
+      {
+        "name": "W",
+        "worldAngle": 180,
+        "mirrorOf": null,
+        "anchor": {
+          "x": 32,
+          "y": 60.16
+        },
+        "facing": "-u",
+        "polygon": [
+          [
+            28.97,
+            60.16
+          ],
+          [
+            34.52,
+            60.16
+          ],
+          [
+            25.68,
+            60.16
+          ]
+        ],
+        "canopyPolygon": [
+          [
+            27.53,
+            60.16
+          ],
+          [
+            39.09,
+            60.16
+          ],
+          [
+            42.38,
+            60.16
+          ],
+          [
+            40.22,
+            60.16
+          ],
+          [
+            39.35,
+            60.16
+          ],
+          [
+            34.31,
+            60.16
+          ],
+          [
+            27.43,
+            60.16
+          ],
+          [
+            26.4,
+            60.16
+          ],
+          [
+            24.03,
+            60.16
+          ],
+          [
+            21.62,
+            60.16
+          ],
+          [
+            21.98,
+            60.16
+          ],
+          [
+            25.83,
+            60.16
+          ]
+        ]
+      }
+    ],
+    "note": "Metres are in the model's own axes (x right, z towards the camera in the S / single-direction sprite, y up; origin = the model pivot). anchor = the pixel (untrimmed frame, from top-left) where the footprint's ground centre is drawn: put it on the centre of the tiles the object covers (an even tile count puts it on a tile corner). Diamond tiles: u runs down-right, v down-left (Tiled isometric); square tiles: u right, v down. polygon = the ground collision polygon in frame pixels; tiles.polygon = the same polygon in tile units around the anchor. collision.source \"base\" = the hull of what stands on the ground (vertices below collision.cut metres above the bottom, e.g. a tree trunk); the whole model's hull is then canopy (canopyPolygon per direction), and footprint/tiles still cover the whole model. collision.rule says why: vehicle/building = always the whole hull; thin (trees, poles, lamps, signs) = the slice when it is at most half the hull; shape = the slice only under 15 % of the hull and near the middle; height = collisionHeight was given; asked = collision \"base\" or \"full\" was given."
+  }
+}

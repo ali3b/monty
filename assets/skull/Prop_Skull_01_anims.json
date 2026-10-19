@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "skull/bounce_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Skull_01", "frame": "bounce_E_0"}, {"key": "Prop_Skull_01", "frame": "bounce_E_1"}, {"key": "Prop_Skull_01", "frame": "bounce_E_2"}, {"key": "Prop_Skull_01", "frame": "bounce_E_3"}, {"key": "Prop_Skull_01", "frame": "bounce_E_4"}, {"key": "Prop_Skull_01", "frame": "bounce_E_5"}, {"key": "Prop_Skull_01", "frame": "bounce_E_6"}, {"key": "Prop_Skull_01", "frame": "bounce_E_7"}, {"key": "Prop_Skull_01", "frame": "bounce_E_8"}, {"key": "Prop_Skull_01", "frame": "bounce_E_9"}]},
+    {"key": "skull/bounce_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Skull_01", "frame": "bounce_W_0"}, {"key": "Prop_Skull_01", "frame": "bounce_W_1"}, {"key": "Prop_Skull_01", "frame": "bounce_W_2"}, {"key": "Prop_Skull_01", "frame": "bounce_W_3"}, {"key": "Prop_Skull_01", "frame": "bounce_W_4"}, {"key": "Prop_Skull_01", "frame": "bounce_W_5"}, {"key": "Prop_Skull_01", "frame": "bounce_W_6"}, {"key": "Prop_Skull_01", "frame": "bounce_W_7"}, {"key": "Prop_Skull_01", "frame": "bounce_W_8"}, {"key": "Prop_Skull_01", "frame": "bounce_W_9"}]}
+  ]
+}

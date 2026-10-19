@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "vase/still_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Vase_01", "frame": "still_E_0"}]},
+    {"key": "vase/still_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Vase_01", "frame": "still_W_0"}]}
+  ]
+}

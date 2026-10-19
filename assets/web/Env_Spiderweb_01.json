@@ -1,0 +1,15 @@
+{
+  "textures": [
+    {
+      "image": "Env_Spiderweb_01_0.png",
+      "format": "RGBA8888",
+      "size": {"w": 80, "h": 16},
+      "scale": 1,
+      "frames": [
+        {"filename": "still_E_0", "frame": {"x": 1, "y": 1, "w": 37, "h": 14}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 18, "y": 25, "w": 37, "h": 14}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.57422, "y": 0.52172}},
+        {"filename": "still_W_0", "frame": {"x": 42, "y": 1, "w": 37, "h": 14}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 9, "y": 25, "w": 37, "h": 14}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.42578, "y": 0.52172}}
+      ]
+    }
+  ],
+  "meta": {"app": "Synty Sprite Generator", "version": "0.3"}
+}

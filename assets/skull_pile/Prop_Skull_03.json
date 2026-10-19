@@ -1,0 +1,15 @@
+{
+  "textures": [
+    {
+      "image": "Prop_Skull_03_0.png",
+      "format": "RGBA8888",
+      "size": {"w": 53, "h": 116},
+      "scale": 1,
+      "frames": [
+        {"filename": "still_E_0", "frame": {"x": 1, "y": 1, "w": 51, "h": 55}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 7, "y": 4, "w": 51, "h": 55}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.50781, "y": 0.67641}},
+        {"filename": "still_W_0", "frame": {"x": 1, "y": 60, "w": 51, "h": 55}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 6, "y": 4, "w": 51, "h": 55}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.49219, "y": 0.67641}}
+      ]
+    }
+  ],
+  "meta": {"app": "Synty Sprite Generator", "version": "0.3"}
+}

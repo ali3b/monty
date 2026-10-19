@@ -1,0 +1,15 @@
+{
+  "textures": [
+    {
+      "image": "Flame_FX_0.png",
+      "format": "RGBA8888",
+      "size": {"w": 30, "h": 118},
+      "scale": 1,
+      "frames": [
+        {"filename": "still_E_0", "frame": {"x": 1, "y": 1, "w": 28, "h": 56}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 18, "y": 4, "w": 28, "h": 56}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.5, "y": 0.94}},
+        {"filename": "still_W_0", "frame": {"x": 1, "y": 61, "w": 28, "h": 56}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 18, "y": 4, "w": 28, "h": 56}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.5, "y": 0.94}}
+      ]
+    }
+  ],
+  "meta": {"app": "Synty Sprite Generator", "version": "0.3"}
+}

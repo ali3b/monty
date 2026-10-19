@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "torch/still_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Torch_01", "frame": "still_E_0"}]},
+    {"key": "torch/still_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Torch_01", "frame": "still_W_0"}]}
+  ]
+}

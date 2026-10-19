@@ -1,0 +1,15 @@
+{
+  "textures": [
+    {
+      "image": "Prop_Ladder_01_0.png",
+      "format": "RGBA8888",
+      "size": {"w": 12, "h": 184},
+      "scale": 1,
+      "frames": [
+        {"filename": "idle_E_0", "frame": {"x": 1, "y": 1, "w": 10, "h": 89}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 27, "y": 7, "w": 10, "h": 89}, "sourceSize": {"w": 64, "h": 102}, "pivot": {"x": 0.5, "y": 0.93137}},
+        {"filename": "idle_W_0", "frame": {"x": 1, "y": 94, "w": 10, "h": 89}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 27, "y": 7, "w": 10, "h": 89}, "sourceSize": {"w": 64, "h": 102}, "pivot": {"x": 0.5, "y": 0.93137}}
+      ]
+    }
+  ],
+  "meta": {"app": "Synty Sprite Generator", "version": "0.3"}
+}

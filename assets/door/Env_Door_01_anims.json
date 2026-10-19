@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "door/still_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Env_Door_01", "frame": "still_E_0"}]},
+    {"key": "door/still_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Env_Door_01", "frame": "still_W_0"}]}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "ladder/idle_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Ladder_01", "frame": "idle_E_0"}]},
+    {"key": "ladder/idle_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Ladder_01", "frame": "idle_W_0"}]}
+  ]
+}

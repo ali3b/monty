@@ -1,0 +1,622 @@
+{
+  "sprites": {
+    "joe": {
+      "name": "joe",
+      "asset": "POLYGON_War/Character_GentleMan_01",
+      "textureKey": "joe",
+      "atlas": "assets/joe/Character_GentleMan_01.json",
+      "path": "assets/joe/",
+      "anims": "assets/joe/Character_GentleMan_01_anims.json",
+      "animPrefix": "joe/",
+      "meta": "assets/joe/Character_GentleMan_01.meta.json",
+      "pixelsPerMetre": 32,
+      "frameSize": [
+        76,
+        82
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "martial_arts_idle",
+        "martial_arts_walk_forward",
+        "martial_arts_walk_back",
+        "martial_arts_jump",
+        "martial_arts_crouch_idle",
+        "martial_arts_hit_head",
+        "martial_arts_get_up",
+        "martial_arts_ko"
+      ],
+      "clipInfo": {
+        "martial_arts_idle": {
+          "frames": 26,
+          "speedMps": null,
+          "events": []
+        },
+        "martial_arts_walk_forward": {
+          "frames": 12,
+          "speedMps": 0.56,
+          "events": [
+            {
+              "frame": 4,
+              "name": "footstep_l"
+            },
+            {
+              "frame": 11,
+              "name": "footstep_r"
+            }
+          ]
+        },
+        "martial_arts_walk_back": {
+          "frames": 10,
+          "speedMps": 0.62,
+          "events": [
+            {
+              "frame": 0,
+              "name": "footstep_l"
+            },
+            {
+              "frame": 6,
+              "name": "footstep_r"
+            }
+          ]
+        },
+        "martial_arts_jump": {
+          "frames": 28,
+          "speedMps": null,
+          "events": []
+        },
+        "martial_arts_crouch_idle": {
+          "frames": 30,
+          "speedMps": null,
+          "events": []
+        },
+        "martial_arts_hit_head": {
+          "frames": 16,
+          "speedMps": null,
+          "events": [
+            {
+              "frame": 2,
+              "name": "hurt"
+            }
+          ]
+        },
+        "martial_arts_get_up": {
+          "frames": 33,
+          "speedMps": null,
+          "events": []
+        },
+        "martial_arts_ko": {
+          "frames": 60,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "skeleton": {
+      "name": "skeleton",
+      "asset": "POLYGON_Dungeon_Pack/Character_Skeleton_Slave_01",
+      "textureKey": "skeleton",
+      "atlas": "assets/skeleton/Character_Skeleton_Slave_01.json",
+      "path": "assets/skeleton/",
+      "anims": "assets/skeleton/Character_Skeleton_Slave_01_anims.json",
+      "animPrefix": "skeleton/",
+      "meta": "assets/skeleton/Character_Skeleton_Slave_01.meta.json",
+      "pixelsPerMetre": 32,
+      "frameSize": [
+        126,
+        78
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "Idle_Standing",
+        "Walk_F",
+        "Run_F",
+        "hit_react",
+        "death_fall"
+      ],
+      "clipInfo": {
+        "Idle_Standing": {
+          "frames": 21,
+          "speedMps": null,
+          "events": []
+        },
+        "Walk_F": {
+          "frames": 12,
+          "speedMps": 1.34,
+          "events": [
+            {
+              "frame": 3,
+              "name": "footstep_r"
+            },
+            {
+              "frame": 9,
+              "name": "footstep_l"
+            }
+          ]
+        },
+        "Run_F": {
+          "frames": 8,
+          "speedMps": 2.4,
+          "events": [
+            {
+              "frame": 3,
+              "name": "footstep_r"
+            }
+          ]
+        },
+        "hit_react": {
+          "frames": 7,
+          "speedMps": null,
+          "events": [
+            {
+              "frame": 1,
+              "name": "hurt"
+            }
+          ]
+        },
+        "death_fall": {
+          "frames": 17,
+          "speedMps": null,
+          "events": [
+            {
+              "frame": 1,
+              "name": "hurt"
+            },
+            {
+              "frame": 11,
+              "name": "dead"
+            }
+          ]
+        }
+      },
+      "validation": []
+    },
+    "skull": {
+      "name": "skull",
+      "asset": "POLYGON_Dark_Fantasy/SM_Prop_Skull_01",
+      "textureKey": "skull",
+      "atlas": "assets/skull/Prop_Skull_01.json",
+      "path": "assets/skull/",
+      "anims": "assets/skull/Prop_Skull_01_anims.json",
+      "animPrefix": "skull/",
+      "meta": "assets/skull/Prop_Skull_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bounce"
+      ],
+      "clipInfo": {
+        "bounce": {
+          "frames": 10,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "key_gold": {
+      "name": "key_gold",
+      "asset": "POLYGON_Dark_Fortress/SM_Prop_Key_01",
+      "textureKey": "key_gold",
+      "atlas": "assets/key_gold/Prop_Key_01.json",
+      "path": "assets/key_gold/",
+      "anims": "assets/key_gold/Prop_Key_01_anims.json",
+      "animPrefix": "key_gold/",
+      "meta": "assets/key_gold/Prop_Key_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bob"
+      ],
+      "clipInfo": {
+        "bob": {
+          "frames": 18,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "key_silver": {
+      "name": "key_silver",
+      "asset": "POLYGON_Dark_Fortress/SM_Prop_Key_02",
+      "textureKey": "key_silver",
+      "atlas": "assets/key_silver/Prop_Key_02.json",
+      "path": "assets/key_silver/",
+      "anims": "assets/key_silver/Prop_Key_02_anims.json",
+      "animPrefix": "key_silver/",
+      "meta": "assets/key_silver/Prop_Key_02.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bob"
+      ],
+      "clipInfo": {
+        "bob": {
+          "frames": 18,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "key_red": {
+      "name": "key_red",
+      "asset": "POLYGON_Dark_Fortress/SM_Prop_Key_03",
+      "textureKey": "key_red",
+      "atlas": "assets/key_red/Prop_Key_03.json",
+      "path": "assets/key_red/",
+      "anims": "assets/key_red/Prop_Key_03_anims.json",
+      "animPrefix": "key_red/",
+      "meta": "assets/key_red/Prop_Key_03.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bob"
+      ],
+      "clipInfo": {
+        "bob": {
+          "frames": 18,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "jewel": {
+      "name": "jewel",
+      "asset": "POLYGON_Dungeon_Pack/SM_Prop_Gem_01",
+      "textureKey": "jewel",
+      "atlas": "assets/jewel/Prop_Gem_01.json",
+      "path": "assets/jewel/",
+      "anims": "assets/jewel/Prop_Gem_01_anims.json",
+      "animPrefix": "jewel/",
+      "meta": "assets/jewel/Prop_Gem_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bob"
+      ],
+      "clipInfo": {
+        "bob": {
+          "frames": 18,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "gold": {
+      "name": "gold",
+      "asset": "POLYGON_Dungeon_Pack/SM_Item_Coins_01",
+      "textureKey": "gold",
+      "atlas": "assets/gold/Item_Coins_01.json",
+      "path": "assets/gold/",
+      "anims": "assets/gold/Item_Coins_01_anims.json",
+      "animPrefix": "gold/",
+      "meta": "assets/gold/Item_Coins_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bob"
+      ],
+      "clipInfo": {
+        "bob": {
+          "frames": 18,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "torch": {
+      "name": "torch",
+      "asset": "POLYGON_Dark_Fantasy/SM_Prop_Torch_01",
+      "textureKey": "torch",
+      "atlas": "assets/torch/Prop_Torch_01.json",
+      "path": "assets/torch/",
+      "anims": "assets/torch/Prop_Torch_01_anims.json",
+      "animPrefix": "torch/",
+      "meta": "assets/torch/Prop_Torch_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "still"
+      ],
+      "clipInfo": {
+        "still": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "sword": {
+      "name": "sword",
+      "asset": "POLYGON_Dark_Fantasy/SM_Wep_Sword_01",
+      "textureKey": "sword",
+      "atlas": "assets/sword/Wep_Sword_01.json",
+      "path": "assets/sword/",
+      "anims": "assets/sword/Wep_Sword_01_anims.json",
+      "animPrefix": "sword/",
+      "meta": null,
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "bob"
+      ],
+      "clipInfo": {},
+      "validation": []
+    },
+    "flame": {
+      "name": "flame",
+      "asset": "POLYGON_Particle_FX/SM_Flame_FX",
+      "textureKey": "flame",
+      "atlas": "assets/flame/Flame_FX.json",
+      "path": "assets/flame/",
+      "anims": "assets/flame/Flame_FX_anims.json",
+      "animPrefix": "flame/",
+      "meta": "assets/flame/Flame_FX.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "still"
+      ],
+      "clipInfo": {
+        "still": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "ladder": {
+      "name": "ladder",
+      "asset": "POLYGON_Dark_Fortress/SM_Prop_Ladder_01",
+      "textureKey": "ladder",
+      "atlas": "assets/ladder/Prop_Ladder_01.json",
+      "path": "assets/ladder/",
+      "anims": "assets/ladder/Prop_Ladder_01_anims.json",
+      "animPrefix": "ladder/",
+      "meta": "assets/ladder/Prop_Ladder_01.meta.json",
+      "pixelsPerMetre": 32,
+      "frameSize": [
+        64,
+        102
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "idle"
+      ],
+      "clipInfo": {
+        "idle": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "door": {
+      "name": "door",
+      "asset": "POLYGON_Dungeon_Pack/SM_Env_Door_01",
+      "textureKey": "door",
+      "atlas": "assets/door/Env_Door_01.json",
+      "path": "assets/door/",
+      "anims": "assets/door/Env_Door_01_anims.json",
+      "animPrefix": "door/",
+      "meta": "assets/door/Env_Door_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "still"
+      ],
+      "clipInfo": {
+        "still": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "web": {
+      "name": "web",
+      "asset": "POLYGON_Dark_Fortress/SM_Env_Spiderweb_01",
+      "textureKey": "web",
+      "atlas": "assets/web/Env_Spiderweb_01.json",
+      "path": "assets/web/",
+      "anims": "assets/web/Env_Spiderweb_01_anims.json",
+      "animPrefix": "web/",
+      "meta": "assets/web/Env_Spiderweb_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "still"
+      ],
+      "clipInfo": {
+        "still": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "vase": {
+      "name": "vase",
+      "asset": "POLYGON_Dungeon_Pack/SM_Prop_Vase_01",
+      "textureKey": "vase",
+      "atlas": "assets/vase/Prop_Vase_01.json",
+      "path": "assets/vase/",
+      "anims": "assets/vase/Prop_Vase_01_anims.json",
+      "animPrefix": "vase/",
+      "meta": "assets/vase/Prop_Vase_01.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "still"
+      ],
+      "clipInfo": {
+        "still": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    },
+    "skull_pile": {
+      "name": "skull_pile",
+      "asset": "POLYGON_Dark_Fantasy/SM_Prop_Skull_03",
+      "textureKey": "skull_pile",
+      "atlas": "assets/skull_pile/Prop_Skull_03.json",
+      "path": "assets/skull_pile/",
+      "anims": "assets/skull_pile/Prop_Skull_03_anims.json",
+      "animPrefix": "skull_pile/",
+      "meta": "assets/skull_pile/Prop_Skull_03.meta.json",
+      "pixelsPerMetre": null,
+      "frameSize": [
+        64,
+        64
+      ],
+      "dirs": [
+        "E",
+        "W"
+      ],
+      "clips": [
+        "still"
+      ],
+      "clipInfo": {
+        "still": {
+          "frames": 1,
+          "speedMps": null,
+          "events": []
+        }
+      },
+      "validation": []
+    }
+  },
+  "project": "Montezuma's Revenge",
+  "generatedBy": "Synty Sprite Generator (ssg CLI)",
+  "tilesets": {
+    "tomb": {
+      "name": "tomb",
+      "image": "assets/tileset/tomb.png",
+      "tsj": "assets/tileset/tomb.tsj",
+      "tile": "32x32",
+      "width": 32,
+      "height": 32,
+      "columns": 5,
+      "terrains": {
+        "void": 0,
+        "brick": 1,
+        "stone": 2,
+        "floor": 3,
+        "ember": 4
+      }
+    }
+  },
+  "ppm": 32,
+  "builtAt": "2026-10-19T09:04:21.448Z",
+  "view": "side2",
+  "look": "pixel",
+  "size": "small",
+  "format": "phaser3",
+  "fps": 12
+}

@@ -1,0 +1,15 @@
+{
+  "textures": [
+    {
+      "image": "Prop_Vase_01_0.png",
+      "format": "RGBA8888",
+      "size": {"w": 38, "h": 122},
+      "scale": 1,
+      "frames": [
+        {"filename": "still_E_0", "frame": {"x": 1, "y": 1, "w": 36, "h": 58}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 14, "y": 3, "w": 36, "h": 58}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.5, "y": 0.94}},
+        {"filename": "still_W_0", "frame": {"x": 1, "y": 63, "w": 36, "h": 58}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 14, "y": 3, "w": 36, "h": 58}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.5, "y": 0.94}}
+      ]
+    }
+  ],
+  "meta": {"app": "Synty Sprite Generator", "version": "0.3"}
+}

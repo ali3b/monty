@@ -1,0 +1,6 @@
+{
+  "anims": [
+    {"key": "skull_pile/still_E", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Skull_03", "frame": "still_E_0"}]},
+    {"key": "skull_pile/still_W", "frameRate": 12, "repeat": -1, "flipX": false, "frames": [{"key": "Prop_Skull_03", "frame": "still_W_0"}]}
+  ]
+}

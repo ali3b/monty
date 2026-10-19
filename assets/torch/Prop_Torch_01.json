@@ -1,0 +1,15 @@
+{
+  "textures": [
+    {
+      "image": "Prop_Torch_01_0.png",
+      "format": "RGBA8888",
+      "size": {"w": 33, "h": 114},
+      "scale": 1,
+      "frames": [
+        {"filename": "still_E_0", "frame": {"x": 1, "y": 1, "w": 31, "h": 54}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 30, "y": 5, "w": 31, "h": 54}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.70875, "y": 0.91063}},
+        {"filename": "still_W_0", "frame": {"x": 1, "y": 59, "w": 31, "h": 54}, "rotated": false, "trimmed": true, "spriteSourceSize": {"x": 3, "y": 5, "w": 31, "h": 54}, "sourceSize": {"w": 64, "h": 64}, "pivot": {"x": 0.29125, "y": 0.91063}}
+      ]
+    }
+  ],
+  "meta": {"app": "Synty Sprite Generator", "version": "0.3"}
+}
